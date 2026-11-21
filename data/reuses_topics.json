@@ -1,0 +1,77 @@
+[
+ {
+  "thematique": "Autres",
+  "reutilisations": 1159,
+  "transport": false
+ },
+ {
+  "thematique": "Logement et aménagement",
+  "reutilisations": 1063,
+  "transport": false
+ },
+ {
+  "thematique": "Transport et mobilité",
+  "reutilisations": 812,
+  "transport": true
+ },
+ {
+  "thematique": "Environnement et énergie",
+  "reutilisations": 755,
+  "transport": false
+ },
+ {
+  "thematique": "Santé",
+  "reutilisations": 733,
+  "transport": false
+ },
+ {
+  "thematique": "Vie publique",
+  "reutilisations": 669,
+  "transport": false
+ },
+ {
+  "thematique": "Économie et entreprises",
+  "reutilisations": 644,
+  "transport": false
+ },
+ {
+  "thematique": "Culture et loisirs",
+  "reutilisations": 441,
+  "transport": false
+ },
+ {
+  "thematique": "Société et démographie",
+  "reutilisations": 408,
+  "transport": false
+ },
+ {
+  "thematique": "Éducation et recherche",
+  "reutilisations": 280,
+  "transport": false
+ },
+ {
+  "thematique": "Outils open data",
+  "reutilisations": 268,
+  "transport": false
+ },
+ {
+  "thematique": "Alimentation et agriculture",
+  "reutilisations": 240,
+  "transport": false
+ },
+ {
+  "thematique": "Travail et formation",
+  "reutilisations": 139,
+  "transport": false
+ },
+ {
+  "thematique": "Droit et justice",
+  "reutilisations": 135,
+  "transport": false
+ },
+ {
+  "thematique": "Sécurité",
+  "reutilisations": 106,
+  "transport": false
+ }
+]

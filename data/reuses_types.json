@@ -1,0 +1,34 @@
+[
+ {
+  "type": "Application",
+  "reutilisations": 424
+ },
+ {
+  "type": "Visualization",
+  "reutilisations": 272
+ },
+ {
+  "type": "Post",
+  "reutilisations": 52
+ },
+ {
+  "type": "News Article",
+  "reutilisations": 24
+ },
+ {
+  "type": "API",
+  "reutilisations": 23
+ },
+ {
+  "type": "Paper",
+  "reutilisations": 11
+ },
+ {
+  "type": "Idea",
+  "reutilisations": 3
+ },
+ {
+  "type": "Connected device",
+  "reutilisations": 3
+ }
+]

@@ -1,0 +1,28 @@
+name: Collecte mensuelle des données
+
+on:
+  schedule:
+    - cron: "17 5 3 * *"   # le 3 de chaque mois à 5h17 (UTC)
+  workflow_dispatch:        # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Interroger data.gouv.fr et l'INSEE
+        run: python collecte/collecte.py
+      - name: Enregistrer les nouvelles données
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Données : relevé du $(date +%Y-%m-%d)"
+          git push
